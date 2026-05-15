@@ -13,7 +13,7 @@ This is an IoT-based Smart Agriculture System built using an ESP8266 NodeMCU. Th
 ## Components Used
 * **Microcontroller:** ESP8266 NodeMCU
 * **Sensors:** 
-  * Capacitive Soil Moisture Sensor v1.2 (Analog)
+  * Soil Moisture Sensor (Analog)
   * DHT11 Temperature & Humidity Sensor
   * LDR (Light Dependent Resistor) Module (Digital Output)
 * **Actuators:** 5V Relay Module (Active Low) & Mini Water Pump

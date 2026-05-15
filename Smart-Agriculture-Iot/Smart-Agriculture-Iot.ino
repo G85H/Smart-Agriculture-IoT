@@ -1,6 +1,6 @@
 // ================================================
 //   FINAL: Smart Agriculture System - Blynk IoT
-//   ESP8266 NodeMCU + Capacitive Soil Moisture + DHT11 + LDR Module + Relay (ACTIVE LOW)
+//   ESP8266 NodeMCU + Soil Moisture + DHT11 + LDR Module + Relay (ACTIVE LOW)
 //   Auto/Manual Pump + Push Notification ("Soil is too dry!")
 //   Added: Crop Recommendation based on sensor data (India-specific)
 // ================================================
@@ -19,7 +19,7 @@ char ssid[] = "YOUR_WIFI_SSID";
 char pass[] = "YOUR_WIFI_PASSWORD";
 
 // ── Pins ──
-#define SOIL_PIN     A0         // Capacitive soil moisture analog
+#define SOIL_PIN     A0         // Soil moisture analog
 #define DHT_PIN      D4         // DHT11 data
 #define RELAY_PIN    D5         // Relay IN (ACTIVE LOW: LOW = ON, HIGH = OFF)
 #define LDR_DO_PIN   D6         // LDR module digital output
