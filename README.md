@@ -1,16 +1,16 @@
-# 🌾 Smart Agriculture System - Blynk IoT
+# Smart Agriculture System - Blynk IoT
 
-## 📖 About the Project
+## About the Project
 This is an IoT-based Smart Agriculture System built using an ESP8266 NodeMCU. The system monitors crucial agricultural parameters—soil moisture, temperature, humidity, and light levels—in real-time. It features an automated watering system that turns on a water pump when the soil gets too dry, sending push notifications to the user via the Blynk app. Additionally, it features a unique algorithm that recommends suitable crops (specifically tailored for Indian climates) based on the real-time sensor data.
 
-## ✨ Features
+## Features
 * **Real-time Monitoring:** Tracks Temperature, Humidity, Soil Moisture, and Light levels.
 * **Smart Automation:** Automatically triggers a water pump (via relay) when soil moisture drops below 35%.
 * **Remote Manual Override:** Allows the user to manually control the water pump from anywhere in the world using the Blynk app.
 * **Intelligent Crop Recommendation:** Suggests suitable crops based on the current environmental data (temperature, humidity, moisture, and light conditions).
 * **Push Notifications:** Alerts the user immediately when the soil is too dry, including the crop recommendation in the alert.
 
-## 🛠️ Components Used
+## Components Used
 * **Microcontroller:** ESP8266 NodeMCU
 * **Sensors:** 
   * Capacitive Soil Moisture Sensor v1.2 (Analog)
@@ -19,7 +19,7 @@ This is an IoT-based Smart Agriculture System built using an ESP8266 NodeMCU. Th
 * **Actuators:** 5V Relay Module (Active Low) & Mini Water Pump
 * **Platform:** Blynk IoT Platform
 
-## 🔌 Pin Mapping / Circuit Connections
+## Pin Mapping / Circuit Connections
 | Component | NodeMCU ESP8266 Pin | Notes |
 | :--- | :--- | :--- |
 | Soil Moisture Sensor | `A0` (Analog In) | Needs calibration for wet/dry values |
@@ -27,7 +27,7 @@ This is an IoT-based Smart Agriculture System built using an ESP8266 NodeMCU. Th
 | Relay Module (Pump) | `D5` (GPIO 14) | Active LOW (LOW = ON, HIGH = OFF) |
 | LDR Module | `D6` (GPIO 12) | Digital Output used |
 
-## 🚀 Setup & Installation
+## Setup & Installation
 To run this project, you need to add your own WiFi credentials and Blynk IoT tokens.
 
 1. Create a [Blynk IoT](https://blynk.io/) account and set up a new Template and Device.
